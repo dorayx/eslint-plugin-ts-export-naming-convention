@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`configs/recommended > in an ESM package > validates interface prefixes 1`] = `[]`;
+
+exports[`configs/recommended > in an ESM package > validates pascal case 1`] = `
+[
+  {
+    "column": 24,
+    "endColumn": 38,
+    "endLine": 3,
+    "line": 3,
+    "message": "Interface name \`iTestSomething\` must have one of the following prefixes: I",
+    "messageId": "missingAffix",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 39,
+    "endLine": 4,
+    "line": 4,
+    "message": "Interface name \`I_TestSomething\` trimmed as \`_TestSomething\` must match one of the following formats: PascalCase",
+    "messageId": "doesNotMatchFormatTrimmed",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 33,
+    "endLine": 7,
+    "line": 7,
+    "message": "Type Alias name \`tTestSomething\` must have one of the following prefixes: T",
+    "messageId": "missingAffix",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 34,
+    "endLine": 8,
+    "line": 8,
+    "message": "Type Alias name \`T_TestSomething\` trimmed as \`_TestSomething\` must match one of the following formats: PascalCase",
+    "messageId": "doesNotMatchFormatTrimmed",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`configs/recommended > in an ESM package > validates type aliase prefixes 1`] = `[]`;

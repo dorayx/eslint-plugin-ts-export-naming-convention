@@ -1,1 +1,1 @@
-export * from './utils/add.ts';
+export * as configs from './configs/index.js';

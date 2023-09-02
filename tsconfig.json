@@ -9,7 +9,6 @@
 
     // Type-checking and declaration options
     "skipLibCheck": true,
-    "types": ["vitest/importMeta"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -21,7 +20,6 @@
       "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
-    "allowImportingTsExtensions": true,
 
     // Emitting and isolating modules
     "isolatedModules": true,

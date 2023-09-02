@@ -1,13 +1,13 @@
-# eslint-plugin-ts-export-prefix
+# eslint-plugin-ts-export-naming-convention
 
-An ESLint plugin to enforce export prefix for TypeScript type aliases and interfaces
+An ESLint plugin to enforce naming conventions for TypeScript exports.
 
 ## Getting Started
 
 1. Install dependencies
 
 - [typescript-eslint](https://typescript-eslint.io/getting-started/): enables ESLint and Prettier to support TypeScript
-- eslint-plugin-ts-export-prefix
+- eslint-plugin-ts-export-naming-conventions
 
 ```bash
 yarn add -D \
@@ -15,7 +15,7 @@ yarn add -D \
   typescript \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
-  eslint-plugin-ts-export-prefix
+  eslint-plugin-ts-export-naming-convention
 ```
 
 2. Add the plugin to your ESLint config
@@ -25,13 +25,15 @@ yarn add -D \
 module.exports = {
   plugins: [
     'plugin:@typescript-eslint/recommended', // <-- more configurations found on https://typescript-eslint.io/linting/configs#recommended-configurations
-    'plugin:ts-export-prefix/recommended', // <-- apply the plugin
+    'plugin:ts-export-export-naming-convention/recommended', // <-- apply the plugin
   ],
   parser: '@typescript-eslint/parser',
 };
 ```
 
 ## Rules
+
+### Interfaces & Type Aliases
 
 - Interfaces & type aliases should be in format of PascalCase
 

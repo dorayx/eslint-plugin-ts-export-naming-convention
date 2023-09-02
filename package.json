@@ -1,19 +1,19 @@
 {
-  "name": "eslint-plugin-ts-export-prefix",
-  "description": "ESLint plugin to enforce export prefix for TypeScript type aliases and interfaces",
+  "name": "eslint-plugin-ts-export-naming-convention",
+  "description": "ESLint plugin to enforce naming conventions for TypeScript exports",
   "keywords": [
     "eslint",
     "eslintplugin",
     "typescript",
     "export",
-    "prefix"
+    "naming-convention"
   ],
   "version": "0.1.0",
   "author": "Doray <open@doray.dev>",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dorayx/eslint-plugin-ts-export-prefix.git"
+    "url": "https://github.com/dorayx/eslint-plugin-ts-export-naming-convention.git"
   },
   "files": [
     "dist"

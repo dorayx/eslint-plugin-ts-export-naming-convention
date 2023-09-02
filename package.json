@@ -23,7 +23,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "test": "vitest run",
+    "test": "yarn build && vitest run",
     "test:dev": "vitest dev",
     "coverage": "vitest run --coverage",
     "postinstall": "is-ci || husky install",
